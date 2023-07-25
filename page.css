@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-top: 20px;
+    display: inline-flex;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+header ul{
+    display: inline-flex;
+    list-style: none;
+}
+header i, span{
+    /* width: 120px; */
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-right: 100px;
+}
+header ul li{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+ header nav ul li:hover{
+    color: brown;
+    cursor: pointer;
+}
+#icon{
+    margin-left: 40px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+input{
+    width: 200px;
+    height: 20px;
+    margin-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+    font-weight: 100;
+}
+.now{
+    display: flex;
+    justify-content: center;
+}
+.now img{
+    position: absolute;
+    width: 100%;
+    height: 89%;
+}
+.now h2{
+    position: relative;
+    margin: 200px;
+    margin-left: 400px;
+    font-size: 30px;
+}
+.Intern{
+    display: flex;
+    position: relative;
+    height: 40px;
+    background-color: red;
+    margin-top: 210px;
+    
+}
+.Intern h3{
+    margin: 10px 20px;
+    color: aliceblue;
+}
+div input{
+    width: 350px;
+    margin-left: 60%;
+    background-color: bisque;
+    
+}
+ div i, input {
+    margin: 10px 0;
+} 
+.web{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    margin-left: 80px;
+    flex-direction: column;
+}
+h2{
+    margin-top: 30px;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.Button{
+    background-color:brown;
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+    padding: 10px 40px;
+}
+.web2{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    margin-top: 50px;
+}
+.web2 img{
+    height: 90%;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+#Web{
+    width: 100%;
+    height: 300px;
+}
+.web3{
+    margin-top: 20px;
+    display: inline-block;
+    height: 300px;
+    /* margin: 40px; */
+}
+.web3 img, h3{
+    height: 70%;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.web4{
+    display: inline-block;
+    height: 300px;
+}
+.web4 img{
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 10px
+}
+.web5{
+    display: inline-block;
+    width: 30%;
+    margin-left: 50px;
+    text-align: center;
+}
